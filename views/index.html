@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Proctor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Exam</h1>
+        <div id="timer">60:00</div>
+    </header>
+    
+    <main>
+        <section id="signup-section">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Sign Up</button>
+                <p id="signup-message"></p>
+            </form>
+        </section>
+
+        <section id="category-selection" style="display: none;">
+            <button id="aptitude-button">Aptitude</button>
+            <button id="technical-button">Technical</button>
+            <button id="coding-button">Coding</button>
+        </section>
+
+        <section id="exam-section" style="display: none;">
+            <div id="question-container">
+                <!-- Questions will be injected here -->
+            </div>
+            <button id="submit-button">Submit</button>
+        </section>
+
+        <!-- Video element for streaming -->
+        <section id="video-section" style="display: none;">
+            <video id="video" autoplay muted></video>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
