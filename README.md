@@ -59,3 +59,5 @@ Welcome to the **Proctored Examination Platform**—a secure and efficient solut
 ## 📄 License
 
 This project is licensed under the MIT License—see the [LICENSE](LICENSE) file for details.
+
+https://github.com/user-attachments/assets/8c4ea325-b113-4f06-a36b-9a08b80ae030
